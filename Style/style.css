@@ -17,7 +17,7 @@
   margin: 0.125rem auto;
   width: 100%;
   max-width: 50rem;
-  border: 0.125rem solid #212427;
+  border: 1px solid #212427;
   border-radius: 0.3125rem;
   display: flex;
   flex-direction: column;
@@ -29,6 +29,7 @@
 .dark {
   background-color: #96120b;
   color: #ffdc5c;
+  border: 1px solid #96120b;
 }
 .btn {
   width: 100%;
