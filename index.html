@@ -1,64 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./Style/style.css">
-</head>
-<body>
-       
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Style/style.css" />
+  </head>
+  <body>
     <main class="container">
-        
-        <div class="btn">
-            <button id="btn-color" class="btn-color-change" onclick="changeColor()">Change Color</button>
-        </div>
+      <div class="btn">
+        <button class="btn-color-change" id="btn-color" onclick="changeColor()">
+          Change Color
+        </button>
+      </div>
 
-        <main class="wrapper">
-            <div class="profile">
-                <div class="profile-image">
-                    <img  class="profile-pic"src="./Images/profile.jpg" alt="Profile Image">
-                </div>
-                <div class="profile__info">
-                    <h1 class="profile__info--name">John Doe</h1>
-                    <h2 class="profile__info--profession">Web Developer</h2>
-                    <p class="profile__info--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                    <div class="profile__info--contact">
-                        <div class="profile__info--contact__phone">
-                            <img src="./Images/phone.png" alt="Phone:">
-                            <p>0958 764 3920</p>
-                        </div>
-                        <div class="profile__info--contact__email">
-                            <img src="./Images/email.png" alt="Email:">
-                            <p>jhdoe@gmail.com</p>
-                        </div>
-                    <div class="profile__info--social">
-                        <a href="https://www.facebook.com/rahul.kumar.100046" target="_blank"><img src="./Images/facebook.png" alt="Facebook"></a>
-                        <a href="https://www.instagram.com/rahul_kumar_rajput_/" target="_blank"><img src="./Images/instagram.png" alt="Instagram"></a>
-                        <a href="https://twitter.com/RahulKu56369398" target="_blank"><img src="./Images/twitter.png" alt="Twitter"></a>
-                        <a href="https://www.linkedin.com/in/rahul-kumar-rajput-9b0b3a1b2/" target="_blank"><img src="./Images/linkedin.png" alt="Linkedin"></a>
-                    </div>
-                </div>
+      <section class="wrapper">
+        <div class="profile">
+          <div class="profile-image">
+            <img
+              src="./Images/profile.jpg"
+              alt="Profile Image"
+              class="profile-pic"
+            />
+          </div>
+          <div class="profile-info">
+            <h1 class="profile-info-name">Jhon Doe</h1>
+            <h2 class="profile-info-profession">Web Developer</h2>
+            <p class="profile-info-description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
+              cum officia, nobis molestias incidunt vero iure,
+            </p>
+            <div class="profile-info-contact">
+              <img src="#" alt="" />
+              <p>0958 764 3920</p>
+              <img src="#" alt="" />
+              <p>jhdoe@gmail.com</p>
             </div>
-            <div class="information">
-                <div class="information__education">
-                    <h1 class="information__education--heading">Education</h1>
-                    <div class="information__education--details">
-                        <h2 class="information__education--details__heading">B.Tech</h2>
-                        <h3 class="information__education--details__subheading">Computer Science</h3>
-                        <p class="information__education--details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                    </div>
-                    <div class="information__education--details">
-                        <h2 class="information__education--details__heading">12th</h2>
-                        <h3 class="information__education--details__subheading">Science</h3>
-                        <p class="information__education--details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                    </div>
-        </main>
-
+          </div>
+          <div class="profile-info-social">
+            <a
+              href="https://www.facebook.com/rahul.kumar.100046"
+              target="_blank"
+              ><img src="./Images/facebook.png" alt="Facebook"
+            /></a>
+            <a
+              href="https://www.instagram.com/rahul_kumar_rajput_/"
+              target="_blank"
+              ><img src="./Images/instagram.png" alt="Instagram"
+            /></a>
+            <a href="https://twitter.com/RahulKu56369398" target="_blank"
+              ><img src="./Images/twitter.png" alt="Twitter"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/rahul-kumar-rajput-9b0b3a1b2/"
+              target="_blank"
+              ><img src="./Images/linkedin.png" alt="Linkedin"
+            /></a>
+          </div>
+        </div>
+        <div class="information">
+          <div class="information-education">
+            <h1 class="information-education-heading">Education</h1>
+            <div class="information-education-details">
+              <h2>B.Tech</h2>
+              <h3>Computer Science</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+                numquam incidunt assumenda, amet maxime provident. Itaque
+                architecto facere dolor ex asperiores,
+              </p>
+            </div>
+            <div class="information__education--details">
+              <h2 class="information__education--details__heading">12th</h2>
+              <h3 class="information__education--details__subheading">
+                Science
+              </h3>
+              <p class="information__education--details__description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam, voluptatum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-
-
-
- 
     <script src="./JS/script.js"></script>
-    </body>
+  </body>
 </html>
