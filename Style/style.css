@@ -31,6 +31,10 @@
     color: #212427;
     transition: 600ms;
   }
+  .bx:hover {
+    color: blue;
+    transition: 200ms ease;
+  }
 }
 .dark {
   background-color: #96120b;
@@ -39,6 +43,9 @@
 
   a {
     color: #ffdc5c;
+  }
+  .bx:hover {
+    color: #47f3ff;
   }
 }
 
@@ -112,11 +119,6 @@ p {
 .bx {
   font-size: 3rem;
   margin-top: 1.875rem;
-}
-
-.bx:hover {
-  color: blue;
-  transition: 200ms ease;
 }
 
 .tertiary,
