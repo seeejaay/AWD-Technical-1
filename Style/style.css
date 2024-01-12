@@ -12,7 +12,7 @@ body{
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    padding-left: 15px;
+    padding-left: 25px;
 }
 
 .container{
@@ -24,7 +24,10 @@ body{
 }
 
 .changeColorBtn{
-    margin-top: 10px;
-    padding: 10px;
+    margin-top: -60px;
+    padding: 15px 5px 15px 5px;
     cursor: pointer;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    border: slategray 1px solid;
 }
