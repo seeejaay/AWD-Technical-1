@@ -13,3 +13,4 @@ const changeColor = () => {
         wrapper.style.color = newFontColor;
     }
 }
+
