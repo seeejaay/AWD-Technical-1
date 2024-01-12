@@ -50,6 +50,7 @@
   color: #ffdc5c;
   transform: scale(1.1);
   border: none;
+  box-shadow: none;
 }
 
 .profile,
