@@ -45,8 +45,8 @@
     border: slategray 0.0625rem solid;
 }
 
-.profile,.information{
-    margin:1.25rem;
+.profile{
+    margin:2.5rem;
 }
 
 .profile-image{
