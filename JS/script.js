@@ -13,3 +13,11 @@ const changeColor = () => {
         wrapper.style.color = newFontColor;
     }
 }
+const revertColor = () => {
+    var wrapper = document.querySelector('.wrapper');
+    var originalBgColor = '#f5f5f5';
+    var originalFontColor = '#000000';
+
+    wrapper.style.backgroundColor = originalBgColor;
+    wrapper.style.color = originalFontColor;
+}
