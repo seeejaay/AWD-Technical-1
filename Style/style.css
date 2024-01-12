@@ -90,3 +90,61 @@
   height: auto;
   border-radius: 10rem;
 }
+
+.profile-name,
+.profile-profession {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem;
+}
+
+p {
+  font-size: 1.25rem;
+  text-align: justify;
+}
+
+.logo {
+  width: 100%;
+  max-width: 3.25rem;
+}
+
+.bx {
+  font-size: 3rem;
+  margin-top: 1.875rem;
+}
+
+.bx:hover {
+  color: blue;
+  transition: 200ms ease;
+}
+
+.tertiary,
+.secondary {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  p {
+    margin: 1.25rem;
+  }
+}
+
+.profile-contact-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+.profile-contact {
+  margin: 1.5rem auto;
+}
