@@ -3,7 +3,7 @@ const changeColor = () => {
     var originalBgColor = '#f5f5f5';
     var originalFontColor = '#000000';
     var newBgColor = '#96120b';
-    var newFontColor = '#e6b002';
+    var newFontColor = '#ffdc5c';
 
     if (wrapper.style.backgroundColor === newBgColor) {
         wrapper.style.backgroundColor = originalBgColor;
